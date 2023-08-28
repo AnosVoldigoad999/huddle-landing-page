@@ -138,14 +138,16 @@ button:hover{
     height: 35px;
     margin: 0 5px;
     color: hsl(0, 100%, 100%) ;
-    left: clamp(210px, 35vw, 215px) ;
-    margin-top: 100px;
+    /*left: clamp(210px, 35vw, 215px) ;*/
+    left: 0;
+    /*left: clamp(120px, 30vw, 170px);*/
+    margin-top: clamp(200px, 30vh, 250px);
     /*top: 17vh ;*/
   }
-  
 
   .everything{
-    margin: 10vh auto;
+    margin: clamp(90px, 10vh, 100px) auto;
+    text-align: center;
   }
 
   p{

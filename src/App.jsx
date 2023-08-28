@@ -13,9 +13,11 @@ export default function App(){
   </div>
   </div> 
   <footer>
+    <div className='icons'>
     <PiFacebookLogoThin className='icon' />
     <PiTwitterLogoThin className='icon' />
     <PiInstagramLogoThin className='icon' />
+    </div>
     </footer>
   </>
 }
