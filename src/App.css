@@ -115,7 +115,7 @@ button:hover{
 @media (max-width:600px){
   body{
     background-image: url(../public/bg-mobile.png);
-    overflow-x:hidden ;
+    overflow-x: hidden;
   }
 
   .container{
