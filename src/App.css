@@ -22,9 +22,7 @@ body {
 }
 
 .logo {
-  background-image: url(../public/logo.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  content: url(../public/logo.svg);
   width: 270px;
   height: 70px;
   margin-left: 3vw;
@@ -146,17 +144,31 @@ button:hover{
   }
 
   .everything{
-    margin: 0 auto;
+    margin: 10vh auto;
   }
 
   p{
     width: max(45vw, 300px);
+    font-weight: 600;
   }
 
   h1{
     font-size: 20px;
     line-height: 30px;
     width: max(270px, 45vw) ;
+  }
+
+  .logo {
+    content: url(../public/logo.svg);
+    width: 200px;
+    height: 70px;
+    margin-left: 4.5vw;
+    margin-bottom: 10vh;
+    margin-top: clamp(10px, 2vh, 15px);
+  }
+
+  button{
+    width: 270px;
   }
   
 }
