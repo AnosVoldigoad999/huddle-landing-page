@@ -61,7 +61,6 @@ h1{
 
 footer{
   position: relative;
- /*top: clamp(175px, 22vh, 185px); */
 }
 
 
@@ -92,7 +91,8 @@ button{
   height: 35px;
   margin: 0 5px;
   color: hsl(0, 100%, 100%) ;
-  /*left: clamp(600px, 35.5vw, 602px);*/
+  left: clamp(270px, 20vw, 300px) ;
+  top: 17vh ;
 }
 
 /*hover*/
