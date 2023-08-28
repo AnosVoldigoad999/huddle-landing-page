@@ -125,20 +125,34 @@ button:hover{
      margin-left: 3vw;
      display: flex;
      flex-direction: column;
-     height: calc(100vh - 50px);
-     margin-left: 25vw;
+     height: calc(100vh - 39px);
+     margin: 0 auto;
    }
 
    .image {
     background-image: url(../public/illustration-mockups.svg);
     background-position: center;
     background-size: cover;
-    width: 50vw;
+    width: 97vw;
     height: 50vh;
     background-repeat: no-repeat;
     /*grid-column-start: 1;
     grid-column-end: 2; */
   }
 
+  .icon{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    margin: 0 5px;
+    color: hsl(0, 100%, 100%) ;
+    left: 10vw;
+    margin-top: 10px;
+    /*top: 17vh ;*/
+  }
+
+  .everything{
+    margin-left: 15vw;
+  }
   
 }
