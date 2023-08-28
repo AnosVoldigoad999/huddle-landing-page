@@ -126,7 +126,7 @@ button:hover{
      display: flex;
      flex-direction: column;
      height: calc(100vh - 50px);
-     margin: 50vw;
+     margin-left: 25vw;
    }
 
    .image {
