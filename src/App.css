@@ -133,8 +133,8 @@ button:hover{
     background-image: url(../public/illustration-mockups.svg);
     background-position: center;
     background-size: cover;
-    width: 97vw;
-    height: 50vh;
+    width: max(580px, 97vw);
+    height: max(420px, 50vh);
     background-repeat: no-repeat;
     /*grid-column-start: 1;
     grid-column-end: 2; */
@@ -156,12 +156,13 @@ button:hover{
   }
 
   p{
-    width: 300px;
+    width: max(45vw, 300px);
   }
 
   h1{
     font-size: 20px;
     line-height: 30px;
+    width: max(270px, 45vw) ;
   }
   
 }
