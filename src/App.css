@@ -154,5 +154,14 @@ button:hover{
   .everything{
     margin-left: 15vw;
   }
+
+  p{
+    width: 300px;
+  }
+
+  h1{
+    font-size: 20px;
+    line-height: 30px;
+  }
   
 }
