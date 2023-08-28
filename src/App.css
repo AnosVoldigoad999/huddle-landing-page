@@ -32,12 +32,10 @@ body {
 }
 
 .image {
-  background-image: url(../public/illustration-mockups.svg);
-  width: clamp(720px, 50vw, 750px);
+ content: url(../public/illustration-mockups.svg);
+ width: clamp(720px, 50vw, 750px);
   height: clamp(500px, 60vh, 510px);
-  background-repeat: no-repeat;
-  /*grid-column-start: 1;
-  grid-column-end: 2; */
+ 
 }
 
 .everything {
@@ -130,14 +128,10 @@ button:hover{
    }
 
    .image {
-    background-image: url(../public/illustration-mockups.svg);
-    background-position: center;
-    background-size: cover;
-    width: max(580px, 97vw);
-    height: max(420px, 50vh);
-    background-repeat: no-repeat;
-    /*grid-column-start: 1;
-    grid-column-end: 2; */
+   content: url(../public/illustration-mockups.png);
+   width: 90vw;
+   height: 50vh;
+   margin-left: 5vw;
   }
 
   .icon{

@@ -5,7 +5,7 @@ export default function App(){
   return<>
   <div className='logo' />
  <div className="container"> 
-  <div className='image' />
+  <img className='image'  />
   <div className='everything'>
     <h1>Build the community your fans will love</h1>
     <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
