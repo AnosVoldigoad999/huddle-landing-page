@@ -174,5 +174,15 @@ button:hover{
     margin-top: 30px;
     width: 270px;
   }
+
+  button:hover{
+    background-color:  hsl(0, 100%, 100%) ;
+    color: hsl(300, 69%, 71%);
+  }
+
+  button:active{
+    background-color: hsl(300, 69%, 71%) ;
+    color: hsl(0, 100%, 100%) ;
+  }
   
 }
