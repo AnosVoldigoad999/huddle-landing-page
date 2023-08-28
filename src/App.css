@@ -13,7 +13,7 @@ body {
 .container{
   display: grid;
   grid-template-columns: clamp(820px, 45vw, 830px)  clamp(470px, 30vw, 480px);
-  margin-top: 10vh;
+  margin-top: clamp(20px, 3vh, 25px);
   margin-left: 3vw;
 }
 
@@ -24,7 +24,7 @@ body {
   width: 270px;
   height: 70px;
   margin-left: 3vw;
-  margin-top: 5vh;
+  margin-top: clamp(10px, 2vh, 15px);
 }
 
 .image {
@@ -45,11 +45,11 @@ body {
 p{
   color: hsl(0, 100%, 100%);
   font-family: open;
-  /* border: 1px solid red; */
-  width: clamp(490px, 27vw, 500px);
+   /*border: 1px solid red; */
+  width: clamp(370px, 27vw, 380px) ;
   line-height: 30px;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 15px;
 }
 h1{
   color: hsl(0, 100%, 100%);
@@ -61,7 +61,7 @@ h1{
 
 footer{
   position: relative;
- top: clamp(175px, 22vh, 185px);
+ /*top: clamp(175px, 22vh, 185px); */
 }
 
 
@@ -76,22 +76,23 @@ footer{
 }
 
 button{
-  padding: 20px;
+  padding: 15px 20px;
   border-radius: 30px;
   border: none;
   width: 200px;
   color: hsl(300, 69%, 71%);
   font-family: open;
   font-size: 16px;
+  box-shadow: 2px 2px 3px 3px hsl(0, 0%, 30%);
 }
 
 .icon{
   position: relative;
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
   margin: 0 5px;
   color: hsl(0, 100%, 100%) ;
-  left: clamp(600px, 35.5vw, 602px);
+  /*left: clamp(600px, 35.5vw, 602px);*/
 }
 
 /*hover*/
