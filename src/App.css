@@ -5,7 +5,7 @@
 body {
   background-image: url(../public/bg-desktop.svg) ;
   background-repeat: no-repeat;
-  /*background-position: center; */
+  background-position: center; 
   background-size: cover;
   background-color: hsl(257, 40%, 49%);
   display: flex;
@@ -13,20 +13,22 @@ body {
 }
 
 .container{
- /* display: grid;
-  grid-template-columns: clamp(820px, 45vw, 830px)  clamp(470px, 30vw, 480px);*/
   margin-top: clamp(20px, 3vh, 25px);
   margin-left: 3vw;
   display: inline-flex;
-  height: calc(100vh - 50px);
+  height: calc(75vh - 50px);
+}
+
+nav{
+  margin-top: 5vh;
+  margin-left: 3vw;
+  margin-bottom: 7vh;
 }
 
 .logo {
   content: url(../public/logo.svg);
-  width: 270px;
-  height: 70px;
-  margin-left: 3vw;
-  margin-top: clamp(10px, 2vh, 15px);
+  width: 12vw;
+  min-width: 150px;
 }
 
 .image {
@@ -38,8 +40,7 @@ body {
 
 .everything {
   margin-top: 5vh;
- /* grid-column-start: 2;
-  grid-column-end: 3; */
+  margin-left: clamp(90px, 5vw, 100px);
 }
 
 p{
@@ -60,7 +61,9 @@ h1{
 }
 
 footer{
- 
+ display: flex;
+ justify-content: end;
+ min-width: 1290px;
 }
 
 
@@ -91,7 +94,8 @@ button{
   height: 35px;
   margin: 0 5px;
   color: hsl(0, 100%, 100%) ;
-  left: max(800px, 85vw);
+  right: 20px;
+  /*left: max(800px, 85vw); */
   /*top: 17vh ;*/
 }
 
@@ -108,6 +112,7 @@ button:hover{
 
 /*media queries */
 
+
 @media (max-width:600px){
   body{
     background-image: url(../public/bg-mobile.png);
@@ -115,8 +120,6 @@ button:hover{
   }
 
   .container{
-    /* display: grid;
-     grid-template-columns: clamp(820px, 45vw, 830px)  clamp(470px, 30vw, 480px);*/
      margin-top: clamp(20px, 3vh, 25px);
      margin-left: 3vw;
      display: flex;
@@ -127,9 +130,9 @@ button:hover{
 
    .image {
    content: url(../public/illustration-mockups.png);
-   width: /*550px*/ 90vw;
+   width: 90vw;
    height: 50vh;
-   margin: 0 auto;
+   /*margin: 0 auto;*/
   }
 
   .icon{
@@ -138,15 +141,12 @@ button:hover{
     height: 35px;
     margin: 0 5px;
     color: hsl(0, 100%, 100%) ;
-    /*left: clamp(210px, 35vw, 215px) ;*/
     left: 0;
-    /*left: clamp(120px, 30vw, 170px);*/
     margin-top: clamp(200px, 30vh, 250px);
-    /*top: 17vh ;*/
   }
 
   .everything{
-    margin: clamp(90px, 10vh, 100px) auto;
+    margin: clamp(90px, 10vh, 100px) auto ;
     text-align: center;
   }
 
@@ -186,4 +186,9 @@ button:hover{
     color: hsl(0, 100%, 100%) ;
   }
   
+
+  footer{
+    min-width: 100vw;
+    justify-content: center;
+  }
 }

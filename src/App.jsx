@@ -3,7 +3,9 @@ import {PiTwitterLogoThin, PiInstagramLogoThin, PiFacebookLogoThin} from 'react-
 
 export default function App(){
   return<>
+  <nav>
   <img className='logo' />
+  </nav>
  <div className="container"> 
   <img className='image'  />
   <div className='everything'>
