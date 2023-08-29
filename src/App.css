@@ -191,4 +191,8 @@ button:hover{
     min-width: 95vw;
     justify-content: center;
   }
+
+  nav{
+    margin-bottom: 0px;
+  }
 }
