@@ -132,7 +132,7 @@ button:hover{
    content: url(../public/illustration-mockups.png);
    width: 90vw;
    height: 50vh;
-   /*margin: 0 auto;*/
+   margin: 0 auto;
   }
 
   .icon{
