@@ -130,7 +130,7 @@ button:hover{
    }
 
    .image {
-   content: url(../public/illustration-mockups.png);
+   content: url(../public/illustration-mockups.svg);
    width: 90vw;
    height: 50vh;
    margin: 0 auto;
