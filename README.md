@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/huddle-landing-page-with-single-introductory-section-solution-LenMJoCX6L
 - Live Site URL: https://huddle-landing-page-three-omega.vercel.app/
 
 ## My process
