@@ -108,6 +108,7 @@ button:hover{
 
 .icon:hover{
   color: hsl(300, 69%, 71%) ;
+  cursor: pointer;
 }
 
 /*media queries */

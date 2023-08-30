@@ -4,10 +4,10 @@ import {PiTwitterLogoThin, PiInstagramLogoThin, PiFacebookLogoThin} from 'react-
 export default function App(){
   return<>
   <nav>
-  <img className='logo' />
+  <img className='logo' alt='logo' />
   </nav>
  <div className="container"> 
-  <img className='image'  />
+  <img className='image' alt='image'  />
   <div className='everything'>
     <h1>Build the community your fans will love</h1>
     <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
