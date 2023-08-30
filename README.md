@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://huddle-landing-page-three-omega.vercel.app/
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: 
+- Live Site URL: https://huddle-landing-page-three-omega.vercel.app/
 
 ## My process
 
