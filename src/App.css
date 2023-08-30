@@ -26,6 +26,7 @@ nav{
 }
 
 .logo {
+  position: fixed;
   content: url(../public/logo.svg);
   width: 12vw;
   min-width: 150px;
